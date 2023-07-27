@@ -27,7 +27,7 @@ export abstract class InMemoryRepository<E extends Entity>
     await this._get(id)
 
     const index = await this._getIndex(id)
-    this.items.slice(index, 1)
+    this.items.splice(index, 1)
   }
 
   protected async _get(id: string): Promise<E> {
