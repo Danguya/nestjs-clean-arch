@@ -1,4 +1,4 @@
-import { UserEntity } from '../domain/entities/user.entity'
+import { UserEntity } from '../entities/user.entity'
 import { SearchableRepositoryInterface } from '@/shared/domain/repositories/searchable-respository-contracts'
 
 export interface UserRepository
